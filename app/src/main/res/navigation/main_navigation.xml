@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/listProductFragment">
+
+    <fragment
+        android:id="@+id/listProductFragment"
+        android:name="com.fiiss.feelingsanalysis.ListProductFragment"
+        android:label="list_product_fragment"
+        tools:layout="@layout/list_product_fragment" >
+        <action
+            android:id="@+id/action_listProductFragment_to_recordFragment"
+            app:destination="@id/recordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.fiiss.feelingsanalysis.RecordFragment"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record" >
+        <action
+            android:id="@+id/action_recordFragment_to_calificacionFragment"
+            app:destination="@id/calificacionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calificacionFragment"
+        android:name="com.fiiss.feelingsanalysis.CalificacionFragment"
+        android:label="fragment_calificacion"
+        tools:layout="@layout/fragment_calificacion" />
+</navigation>

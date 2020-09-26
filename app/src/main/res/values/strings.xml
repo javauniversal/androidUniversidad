@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Feelings Analysis</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lista_de_productos">Lista de productos</string>
+    <string name="nombre_producto">Nombre Producto</string>
+    <string name="url_base">https://appdomidomi.com/backend_domidomi_cienaga/public/api</string>
+</resources>
