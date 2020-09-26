@@ -41,9 +41,9 @@ class ListProductFragment : Fragment() {
 
         var listProduct = ArrayList<Product>()
 
-        listProduct.add(Product(1, "PC escritorio", "", R.drawable.ic_launcher_background))
-        listProduct.add(Product(2, "Portátil", "", R.drawable.ic_launcher_background))
-        listProduct.add(Product(3, "Celular", "", R.drawable.ic_launcher_background))
+        listProduct.add(Product(1, "PC escritorio", "", R.drawable.pc_escritorio))
+        listProduct.add(Product(2, "Portátil", "", R.drawable.portatil))
+        listProduct.add(Product(3, "Celular", "", R.drawable.celular))
 
         val recyclerRestaurante = RecyclerProduct(requireActivity(), listProduct)
         val mLayoutManager: RecyclerView.LayoutManager = GridLayoutManager(requireActivity(), 1)
